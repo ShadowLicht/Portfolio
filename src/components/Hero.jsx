@@ -47,7 +47,9 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="flex flex-row space-x-4">
-                    <LinkS to="project" className="p-3 w-32 bg-black border-2  rounded-xl text-white hover:bg-gray-900 text-center cursor-pointer" >My Work</LinkS>
+                    <LinkS to="project" smooth={true}
+                        duration={500}
+                        offset={-80} className="p-3 w-32 bg-black border-2  rounded-xl text-white hover:bg-gray-900 text-center cursor-pointer" >My Work</LinkS>
                     <a href="/resume.pdf" className="p-3 w-40 bg-white border-[1px] rounded-xl text-black flex items-center justify-center hover:bg-slate-200" >
                         <NotebookText className="mr-2 h-4 w-4" /> Resume
                     </a>
