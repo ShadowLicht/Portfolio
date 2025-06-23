@@ -59,7 +59,7 @@ const projects = [
 export default function Project() {
     return (
         <Element name="project">
-            <section id="projects" className="py-20 bg-gray-50 min-h-screen overflow-hidden">
+            <section id="projects" className="py-20 min-h-screen overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Section Header */}
                     <div className="text-center mb-16">

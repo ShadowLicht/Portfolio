@@ -5,13 +5,16 @@ import Experience from "../components/Experience"
 import Project from "../components/Project"
 const HomePage = () => {
     return (
-        <div className="flex flex-col h-screen bg-gray-50 ">
-            <NavBar />
+        <div className="flex flex-col h-screen ">
 
+
+
+            <NavBar />
             <Hero />
             <About />
             <Experience />
             <Project />
+
         </div>
     )
 }
