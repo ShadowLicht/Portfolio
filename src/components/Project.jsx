@@ -5,46 +5,46 @@ const projects = [
         title: "Intelligent Tutoring System",
         description:
             "An adaptive learning platform designed to assess and improve student mastery using Bayesian Knowledge Tracing. Features include dynamic question generation, performance tracking, faculty- authored solutions, and mastery - based progression.",
-        image: "/placeholder.svg?height=300&width=500",
+        image: "/ITS.png",
         technologies: ["React", "Laravel", "Tailwind CSS", "MySQL"],
-        githubUrl: "https://github.com/example/ecommerce",
-        liveUrl: "https://ecommerce-demo.vercel.app",
+        githubUrl: "#",
+        liveUrl: "#",
         featured: true,
     },
     {
         title: "Inventory Management System",
         description:
             "A standalone Java desktop application for inventory management, tailored to the department's internal operations.",
-        image: "/placeholder.svg?height=300&width=500",
+        image: "/dp.png",
         technologies: ["Java", "JavaFX", "CSS", "Sqlite"],
-        githubUrl: "https://github.com/example/taskmanager",
-        liveUrl: "https://taskmanager-demo.vercel.app",
+        githubUrl: "#",
     },
     {
         title: "ChatRecipe",
         description:
             "An AI-powered recipe tool that allows users to generate, customize, and interact with recipes through natural language. ",
-        image: "/placeholder.svg?height=300&width=500",
+        image: "/chatrecipe.png",
         technologies: ["React", "JavaScript", "Gemini API", "Tailwind CSS"],
-        githubUrl: "https://github.com/example/weather",
-        liveUrl: "https://weather-dashboard-demo.vercel.app",
+        githubUrl: "https://github.com/ShadowLicht/ChatRecipe",
+        liveUrl: "https://chat-recipe-six.vercel.app/",
     },
     {
         title: "WeNote",
         description:
             "A personal note-taking application with support for real-time editing. Built with a clean, intuitive interface for managing tasks",
-        image: "/placeholder.svg?height=300&width=500",
+        image: "/wenote.png",
         technologies: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "Git", "Render"],
-        githubUrl: "https://github.com/example/analytics",
+        githubUrl: "https://github.com/ShadowLicht/WeNote",
+        liveUrl: "https://wenote-bzuk.onrender.com/",
     },
     {
         title: "QrGen",
         description:
             "A customizable QR code generator with support for logos, color themes, and downloadable formats. Designed for quick and flexible creation of branded QR codes",
-        image: "/placeholder.svg?height=300&width=500",
+        image: "/qrgen.png",
         technologies: ["React", "Javascript", "Render", "Git", "Tailwind CSS"],
-        githubUrl: "https://github.com/example/recipes",
-        liveUrl: "https://recipes-platform.vercel.app",
+        githubUrl: "https://github.com/ShadowLicht/QrGen",
+        liveUrl: "https://qrgen-suz2.onrender.com/",
     },
     {
         title: "Youtube Downloader",
@@ -52,7 +52,7 @@ const projects = [
             "A simple and efficient YouTube video downloader that allows users to download videos in various formats and resolutions.",
         image: "/placeholder.svg?height=300&width=500",
         technologies: ["React", "Node.js", "Express", "yt-dlp", "Tailwind CSS"],
-        githubUrl: "https://github.com/example/fitness",
+        githubUrl: "#",
     },
 ]
 
