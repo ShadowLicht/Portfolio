@@ -57,17 +57,17 @@ const Hero = () => {
 
                 <div className="flex items-center space-x-8" >
 
-                    <Link to="https://github.com" target="_blank" >
+                    <Link to="https://github.com/ShadowLicht" target="_blank" >
                         <Github className="h-5 w-5" />
                     </Link>
 
 
-                    <Link to="https://linkedin.com" target="_blank" >
+                    <Link to="https://www.linkedin.com/in/willard-kent-de-los-santos/" target="_blank" >
                         <Linkedin className="h-5 w-5" />
                     </Link>
 
 
-                    <Link to="mailto:alex@example.com" >
+                    <Link to="mailto:willardkentdelossantos@gmail.com" >
                         <Mail className="h-5 w-5" />
                     </Link>
 
